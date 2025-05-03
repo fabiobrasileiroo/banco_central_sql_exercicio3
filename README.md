@@ -128,5 +128,3 @@ Isso irá parar e remover o container `mysql_banco_central`, mas preservará o v
 ## Licença
 
 MIT License © 2025 Fabio
-
-```
