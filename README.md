@@ -60,7 +60,6 @@ Este repositório contém a configuração Docker e o script SQL para criar um b
 
 1. **Criação das tabelas**
 
-   * `clientes` (id, nome, email)
    * `contas` (id, nome, saldo)
 
 2. **Popula dados iniciais**
@@ -90,7 +89,7 @@ Após entrar no MySQL:
 SHOW TABLES;
 
 -- Ver dados de clientes
-SELECT * FROM clientes;
+SELECT * FROM contas;
 
 -- Ver dados de contas
 SELECT * FROM contas ORDER BY saldo_conta DESC;
